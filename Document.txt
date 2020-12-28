@@ -1,0 +1,12 @@
+Airlines Data
+
+Final model chosen is Multiplicative additive seasonality as the RMSE is 10.42 and is the least. Number of Dummy values created is 12, 
+however dummy variables used is 11 as if we know the value of all 11 Months, the value of 12th month becomes obvious. For eg - if Jan to Nov
+is all 0, then Dec will be 1 and if any month between Jan to Nov is 1, then dec will be 0.
+
+Also, i have tried creating all the possible models - Linear model, Exponential model, quadratic model, Additive Seasonality model, 
+additive seasonality with quadratic trend, multiplicative seasonality, multiplicative seasonality with additive seasonality.
+
+However, the line graph of the Passengers data set show that there is trend and seasonality in the data. Seasonality can be both additive and multiplicative as per me. 
+
+Hence Additive Seasonality with Quadratic trend and Multiplicative additive seasonality should be the best option.
